@@ -6,6 +6,8 @@ import java.util.Objects;
 
 public class Audio extends Medium {
 
+	private static final long serialVersionUID = 1L;
+	
 	private String interpret;
 	private int dauer;
 	
