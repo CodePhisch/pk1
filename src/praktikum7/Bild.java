@@ -1,4 +1,4 @@
-package praktikum5;
+package praktikum7;
 
 import java.io.OutputStream;
 import java.io.PrintStream;
@@ -6,6 +6,8 @@ import java.util.Objects;
 
 public class Bild extends Medium {
 
+	private static final long serialVersionUID = 1L;
+	
 	private String ort;
 	
 	public Bild(String titel, int jahr, String ort) {
