@@ -14,4 +14,8 @@ module pk1 {
 	requires javafx.base;
 	
 	opens praktikum7 to javafx.controls, javafx.base, javafx.graphics;
+	opens praktikum8.gui to javafx.controls, javafx.base, javafx.graphics;
+	opens vorlesung9.aufgabe38 to javafx.controls, javafx.base, javafx.graphics;
+	opens vorlesung9.aufgabe39 to javafx.controls, javafx.base, javafx.graphics;
+	opens vorlesung9.aufgabe41 to javafx.controls, javafx.base, javafx.graphics;
 }
